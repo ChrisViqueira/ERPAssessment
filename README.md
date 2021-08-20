@@ -18,14 +18,15 @@ Running a simple `mvn clean install` should generate the code needed to run the 
 ## Available Scripts
 
 To run the assessment you need to run Spring and React environment. You can run them together using the script:
-#### `init.sh`
+`init.sh`
 Located in the project root. Make sure you don't spin up a ton of java processes. This is a very quick and dirty script.
 
 ------
 Alternatively, you can run the commands separately.
 
-####Spring startup: `mvn spring-boot:run`
-####Frontend startup: `npm start`
+Spring startup: `mvn spring-boot:run`
+
+Frontend startup: `npm start`
 
 Note, you must be in the frontend directory to run `npm start`
 
